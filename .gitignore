@@ -1,0 +1,4 @@
+dev_rel/
+*.beam
+apps/*/.eunit/
+tbin
