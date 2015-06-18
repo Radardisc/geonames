@@ -2,3 +2,6 @@ dev_rel/
 *.beam
 apps/*/.eunit/
 tbin
+data
+Rakefile
+rel/wr_dev_rel.sh

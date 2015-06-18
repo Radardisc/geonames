@@ -1,0 +1,10 @@
+{application,geonames,
+             [{description,[]},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{geonames_app,[]}},
+              {env,[]},
+              {modules,[geoname_mnesia,geonames,geonames_app,geonames_import,
+                        geonames_log,geonames_mnesia,geonames_parser,
+                        geonames_sup]}]}.

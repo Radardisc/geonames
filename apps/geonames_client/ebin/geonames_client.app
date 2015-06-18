@@ -1,0 +1,9 @@
+{application,geonames_client,
+             [{description,[]},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{geonames_client_app,[]}},
+              {env,[]},
+              {modules,[geonames_client,geonames_client_app,
+                        geonames_client_sup,geonames_clientgeonames]}]}.

@@ -1,0 +1,14 @@
+%%-*- mode: erlang -*-
+{application, geonames,
+ [
+  {description, ""},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { geonames_app, []}},
+  {env, []}
+ ]}.
+%% vim: set filetype=erlang tabstop=2
