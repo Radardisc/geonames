@@ -60,7 +60,8 @@ From another node you can call
 
 There isn't a lot due to time pressures. Most calls will return a proplist of various fields, or a list of binary strings
 
+### Design
 
-
+`geonames_mnesia.erl` is the DB layout. There is a more or less a 1-1 mapping of fields from the text files to the 
 
 

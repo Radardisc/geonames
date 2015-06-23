@@ -13,4 +13,4 @@ stop(_State) ->
   ok.
 
 
-start() -> application:start(geonames).
+start() -> application:start(geonames_client).

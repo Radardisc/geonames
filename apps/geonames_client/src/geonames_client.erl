@@ -3,6 +3,7 @@
 
 -compile(export_all).
 
+start() -> application:start(geonames_client).
 
 rpc(Method, Args) ->
     rpc:call(node_name(), module_name(), Method, Args).
